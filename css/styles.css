@@ -18,3 +18,11 @@
   color: rgb(37,40,77);
   transition: 0.4s ease;
 }
+
+#carouselExampleIndicators {
+  width:100%;
+}
+
+#carouselExampleIndicators img {
+  width:100%;
+}

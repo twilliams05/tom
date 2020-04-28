@@ -1,4 +1,6 @@
-
+body {
+  background-attachment: fixed;
+}
 
 #contacts a {
   display: inline-flex;
@@ -23,10 +25,16 @@
 
 #carouselExampleIndicators {
   width:100%;
+  margin-top: 30px;
 }
 
 #carouselExampleIndicators img {
   width:100%;
+  margin-top: 43px;
+  border-radius: 30px;
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
 }
 
 #logo {
@@ -45,4 +53,19 @@
 #carouselExampleIndicators {
 width: 1300px;
 margin: 0 auto;
+margin-top: 43px;
+border-color: white;
+border-width: 5px;
+}
+
+canvas {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+
+#intro {
+  background-color: grey;
 }

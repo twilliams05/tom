@@ -32,6 +32,7 @@
   margin-right: 10px;
 }
 
-#navbar a {
-  font-family: Bahnschrift SemiBold;
+#navbar li a {
+  font-family: Georgia,serif;
+  font-size: 1.1em;
 }

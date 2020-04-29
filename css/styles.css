@@ -32,15 +32,11 @@ body {
   width:100%;
   margin-top: 43px;
   border-radius: 30px;
-  border-color: white;
+  border-color: #8BAD9D;
   border-width: 5px;
   border-style: solid;
 }
 
-#logo {
-  width: 80px;
-  margin-right: 10px;
-}
 
 #navbar li a {
   font-size: 1.1em;
@@ -54,13 +50,14 @@ body {
 width: 1300px;
 margin: 0 auto;
 margin-top: 43px;
-border-color: white;
+border-color: #8BAD9D;
 border-width: 5px;
 }
 
 canvas {
 
   position: fixed;
+  z-index: -5;
   top: 0;
   left: 0;
   background-color: black;
@@ -68,4 +65,17 @@ canvas {
 
 #intro {
   background-color: grey;
+  border-radius: 30px;
+  margin: 100px;
+  margin-top: 40px;
+}
+
+#intro img {
+  border-radius: 50%;
+  width: 300px;
+  margin: 30px;
+}
+
+#intro-text {
+  display: inline-block;
 }

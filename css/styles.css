@@ -32,9 +32,7 @@ body {
   width:100%;
   margin-top: 43px;
   border-radius: 30px;
-  border-color: white;
-  border-width: 5px;
-  border-style: solid;
+  border: 2px solid rgb(22,6,59);
 }
 
 
@@ -59,11 +57,9 @@ body {
 }
 
 #carouselExampleIndicators {
-width: 1300px;
-margin: 0 auto;
-margin-top: 43px;
-border-color: rgb(26,0,87);
-border-width: 5px;
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 43px;
 }
 
 canvas {
@@ -75,23 +71,30 @@ canvas {
 }
 
 #intro {
-  background-color: rgb(7,1,20);
+  background-color: rgb(2,1,13);
   border-radius: 30px;
-  border-color: purple;
   margin: 50px;
   margin-top: 40px;
-  border: 5px solid white;
+  border: 5px solid rgb(22,6,59);
 }
 
 #intro img {
   border-radius: 50%;
-  border: 5px solid black;
-  width: 300px;
+  border: 5px solid rgb(22,6,59);  width: 300px;
   margin: 30px;
   margin-top: 10px;
 }
 
 #intro-text {
   display: inline-block;
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: rgb(22,6,59);
+  border: 2px solid black;
+}
+
+.dropdown-menu a {
   color: white;
 }

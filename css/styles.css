@@ -1,4 +1,4 @@
-.container {
+.container-md {
   margin-top: 60px;
 }
 
@@ -88,7 +88,9 @@ canvas {
 
 #logo {
   border-radius: 50%;
-  width: 400px;
+  width: 60%;
+  margin: 10% auto 0;
+  display: block;
 }
 
 .row {

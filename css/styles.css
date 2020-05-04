@@ -71,22 +71,24 @@ canvas {
 }
 
 #intro {
-  background-color: rgb(2,1,13);
+  background-image: linear-gradient(90deg,black,rgb(22,6,59),black);
   border-radius: 30px;
   margin: 50px;
   margin-top: 40px;
   border: 5px solid rgb(22,6,59);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 #intro img {
   border-radius: 50%;
   border: 5px solid rgb(22,6,59);  width: 300px;
   margin: 30px;
-  margin-top: 10px;
 }
 
 #intro-text {
-  display: inline-block;
   color: white;
 }
 

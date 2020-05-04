@@ -1,6 +1,6 @@
 canvas {
-
   position: absolute;
+  z-index: -5;
   top: 0;
   left: 0;
   background-color: black;
@@ -54,4 +54,20 @@ canvas {
 .fas {
   font-size: 30px;
   margin-right: 10px;
+}
+
+#about-my-website {
+  margin-top: 50px;
+  background-image: linear-gradient(90deg,black,rgb(22,6,59),black);
+  border-radius: 30px;
+  border: 5px solid white;
+}
+
+img {
+  border-radius: 50%;
+  width: 350px;
+}
+p {
+  color: white;
+  font-size: 25px;
 }

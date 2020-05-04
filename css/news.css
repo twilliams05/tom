@@ -5,3 +5,53 @@ canvas {
   left: 0;
   background-color: black;
 }
+
+#navbar ul {
+  background-color: rgba(0,0,0,0.7);
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 15px;
+}
+
+#navbar li a {
+  font-size: 1.2em;
+}
+
+#navbar {
+  background-image: linear-gradient(black,rgb(22,6,59),black);
+}
+
+#contacts a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 5px;
+  transition: 0.4s ease;
+  text-decoration: none;
+}
+
+#contacts a:hover {
+  background-color: white;
+  color: rgb(37,40,77);
+  transition: 0.4s ease;
+}
+
+.dropdown-menu {
+  background-color: rgb(22,6,59);
+  border: 2px solid black;
+}
+
+.dropdown-menu a {
+  color: white;
+}
+
+.fas {
+  font-size: 30px;
+  margin-right: 10px;
+}

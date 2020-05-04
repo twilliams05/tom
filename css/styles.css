@@ -1,5 +1,29 @@
-body {
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 0;
+}
+
+ body {
   background-attachment: fixed;
+}
+
+canvas {
+  position: fixed;
+  z-index: -5;
+  top: 0;
+  left: 0;
+  background-color: black;
 }
 
 #contacts a {
@@ -23,19 +47,6 @@ body {
   transition: 0.4s ease;
 }
 
-#carouselExampleIndicators {
-  width:100%;
-  margin-top: 30px;
-}
-
-#carouselExampleIndicators img {
-  width:100%;
-  margin-top: 43px;
-  border-radius: 30px;
-  border: 2px solid rgb(22,6,59);
-}
-
-
 #navbar ul {
   background-color: rgba(0,0,0,0.7);
   padding-left: 5px;
@@ -47,49 +58,13 @@ body {
   font-size: 1.2em;
 }
 
-.fas {
-  font-size: 30px;
-  margin-right: 10px;
-}
-
 #navbar {
   background-image: linear-gradient(black,rgb(22,6,59),black);
 }
 
-#carouselExampleIndicators {
-  width: 1300px;
-  margin: 0 auto;
-  margin-top: 43px;
-}
-
-canvas {
-  position: fixed;
-  z-index: -5;
-  top: 0;
-  left: 0;
-  background-color: black;
-}
-
-#intro {
-  background-image: linear-gradient(90deg,black,rgb(22,6,59),black);
-  border-radius: 30px;
-  margin: 50px;
-  margin-top: 40px;
-  border: 5px solid rgb(22,6,59);
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-}
-
-#intro img {
-  border-radius: 50%;
-  border: 5px solid rgb(22,6,59);  width: 300px;
-  margin: 30px;
-}
-
-#intro-text {
-  color: white;
+.fas {
+  font-size: 30px;
+  margin-right: 10px;
 }
 
 .dropdown-menu {

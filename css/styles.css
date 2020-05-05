@@ -1,5 +1,6 @@
 .container-md {
-  margin-top: 60px;
+  margin-top: 52px;
+  margin-bottom: 20px;
 }
 
 .centered-content {
@@ -8,6 +9,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #carouselExampleIndicators img {
@@ -53,7 +55,7 @@ canvas {
 
 #contacts a:hover {
   background-color: white;
-  color: rgb(37,40,77);
+  color: rgb(22,6,59);
   transition: 0.4s ease;
 }
 
@@ -66,6 +68,7 @@ canvas {
 
 #navbar li a {
   font-size: 1.2em;
+font-family: 'Fjalla One', sans-serif;
 }
 
 #navbar {
@@ -89,10 +92,14 @@ canvas {
 #logo {
   border-radius: 50%;
   width: 60%;
-  margin: 10% auto 0;
+  margin: 10% 10%;
   display: block;
 }
 
 .row {
   color: white;
+  margin-top: 3%;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-image: linear-gradient(90deg,black,rgb(22,6,59),black);
 }

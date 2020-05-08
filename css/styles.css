@@ -1,5 +1,5 @@
 .container-md {
-  margin-top: 52px;
+  margin-top: 42px;
   margin-bottom: 20px;
 }
 
@@ -9,6 +9,9 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
+}
+
+#intro-text {
   font-family: 'Open Sans', sans-serif;
 }
 

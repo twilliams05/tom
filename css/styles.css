@@ -3,13 +3,6 @@
   margin-bottom: 20px;
 }
 
-.centered-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-}
 
 #intro-text {
   font-family: 'Open Sans', sans-serif;
@@ -28,73 +21,10 @@ li {
   padding: 0;
 }
 
- body {
-  background-attachment: fixed;
-  padding-top: 40px;
-}
-
-canvas {
-  position: fixed;
-  z-index: -5;
-  top: 0;
-  left: 0;
-  background-color: black;
-}
-
-#contacts a {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  font-size: 25px;
-  color: white;
-  border-radius: 50%;
-  padding: 5px;
-  margin: 5px;
-  transition: 0.4s ease;
-  text-decoration: none;
-}
-
-#contacts a:hover {
-  background-color: white;
-  color: rgb(22,6,59);
-  transition: 0.4s ease;
-}
-
-#navbar ul {
-  background-color: rgba(0,0,0,0.7);
-  padding-left: 5px;
-  padding-right: 5px;
-  border-radius: 15px;
-}
-
-#navbar li a {
-  font-size: 1.2em;
-  font-family: 'Fjalla One', sans-serif;
-}
-
-#navbar {
-  background-image: linear-gradient(black,rgb(22,6,59),black);
-}
-
-.fas {
-  font-size: 30px;
-  margin-right: 10px;
-}
-
-.dropdown-menu {
-  background-color: rgb(22,6,59);
-  border: 2px solid black;
-}
-
-.dropdown-menu a {
-  color: white;
-}
 
 #logo {
   border-radius: 50%;
-  width: 60%;
+  width: 70%;
   margin: 10% 10%;
   display: block;
 }
@@ -103,21 +33,15 @@ canvas {
   color: white;
   margin-top: 3%;
   border-radius: 20px;
-  border: 2px solid white;
-  background-image: linear-gradient(90deg,black,rgb(22,6,59),black);
 }
 
-.white-background {
-  background-color: white;
-  color: black;
-  border-radius: 20px;
-  margin: 1% auto;;
+#intro-text {
+  border-radius: 0px;
+  height: 85%;
+  border-radius: 5px;
 }
 
-.white-background p  {
-  font-family: 'Crete Round', serif;
-}
-
-.white-background h1 {
+#intro-text h1 {
   font-family: 'Fjalla One', sans-serif;
+  text-decoration: underline;
 }

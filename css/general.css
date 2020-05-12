@@ -1,0 +1,91 @@
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+body {
+ background-attachment: fixed;
+ padding-top: 40px;
+}
+
+canvas {
+  position: fixed;
+  z-index: -5;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+
+#contacts a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 5px;
+  transition: 0.4s ease;
+  text-decoration: none;
+}
+
+#contacts a:hover {
+  background-color: white;
+  color: rgb(22,6,59);
+  transition: 0.4s ease;
+}
+
+#navbar ul {
+  background-color: rgba(0,0,0,0.7);
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 15px;
+}
+
+#navbar li a {
+  font-size: 1.2em;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+#navbar {
+  background-image: linear-gradient(black,rgb(22,6,59),black);
+}
+
+.fas {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.dropdown-menu {
+  background-color: rgb(22,6,59);
+  border: 2px solid black;
+}
+
+.dropdown-menu a {
+  color: white;
+}
+
+.normal-text {
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px;
+  font-family: 'Crete Round', serif;
+}
+
+.gradient-background {
+  background-image: linear-gradient(90deg,black,rgb(22,6,59),black);
+  border: 2px solid white;
+}
+
+.lateral-centered {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

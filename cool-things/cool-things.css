@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dropdown-menu {
+  background-color: rgb(22,6,59);
+  border: 2px solid black;
+}
+
+.dropdown-menu a {
+  color: white;
+}
+
+iframe {
+  margin: 1%;
+  height: 480px;
+  width: 853px;
+}
+
+#yt-videos {
+  margin-top: 4%;
+  border-radius: 15px;
+}

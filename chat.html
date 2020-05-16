@@ -57,21 +57,23 @@
   <div class="container">
     <div class="row" id="chat">
       <div class="col chat-component">
-        <h4>People In Chat</h4>
+        <h4 class="header">People In Chat</h4>
         <p id="top-gt">xx_epic.gamer_xx</p>
         <p>fortnitepro123</p>
         <p>noob-master24</p>
         <p>cheesy.man</p>
         <p>COD_PRO_463</p>
-        <p>AwesomeGamer362</p>
+        <p id="bottom-gt">AwesomeGamer362</p>
       </div>
       <div class="col-9 chat-component">
-        <h4>Chat</h4>
+        <h4 class="header">Chat</h4>
         <div id="chat-messages"></div>
-        <form id="chat-form" action="#">
-        <input type="text" placeholder="Type a message.." id="chat-input">
-        <button id="chat-button">Send</button>
-        </form>
+        <div id="message-input">
+          <form id="chat-form" action="#">
+            <input type="text" placeholder="Type a message..." id="chat-input">
+            <button id="chat-button">Send</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>

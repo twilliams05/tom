@@ -30,5 +30,10 @@ iframe {
 
 #sites img:hover{
  transition: 0.4s ease;
- box-shadow: 0 0 4px 4px rgb(158,0,163);
+ box-shadow: 0 0 4px 4px rgb(255,255,255);
+}
+
+.headers {
+  color: white;
+  background-image: linear-gradient(black,rgb(22,6,59),black);
 }

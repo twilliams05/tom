@@ -27,3 +27,7 @@ iframe {
 .verticaly-centered {
   text-align: center;
 }
+
+.headers {
+  font-family: 'Fjalla One', sans-serif;
+}

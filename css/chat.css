@@ -5,6 +5,7 @@
   color: white;
   border-radius: 5px;
   height: 600px;
+  overflow: auto;
 }
 
 .chat-component {
@@ -36,7 +37,7 @@ li {
 }
 
 #bottom-gt {
-  margin-bottom: 129%;
+  margin-bottom: 112%;
 }
 
 #entertext {
@@ -58,6 +59,12 @@ body {
   position: fixed;
   width: 52%;
 }
+
+/* #chat-messages {
+  overflow: auto;
+  width: 95%;
+  height: 80%;
+} */
 
 .members-count,
 .members-list,

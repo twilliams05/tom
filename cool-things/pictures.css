@@ -1,16 +1,1 @@
-.headers {
-  border-radius: 15px;
-  border: 2px solid white;
-  margin-top: 3%;
-  color: white;
-  background-image: linear-gradient(black,rgb(22,6,59),black);
-}
 
-#intro-stuff {
-  padding: 1%;
-  text-align: center;
-}
-
-#intro-stuff h1 {
-  text-decoration: underline;
-}
